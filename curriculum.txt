@@ -1,0 +1,15 @@
+ -Exceptions
+ - Strings and Text Encoding
+ - Value type vs reference type
+ - compiler optimization
+ - building your own data type and library
+ - use nuget to package your library
+ - testing and debugging
+ - generics
+ - lambda functions
+ - LINQ and containers
+ - I/O reading and writing to files
+ - Steams
+ - Serialization
+ - Concurrency
+ - Practical Applications for dotnet

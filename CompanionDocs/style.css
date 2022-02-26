@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'B Koodak Outline';
+    src: url('/fonts/BKoodakOutline.woff2') format('woff2'),
+        url('/fonts/BKoodakOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('/fonts/Vazir.woff2') format('woff2'),
+        url('/fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Vazir', Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 0 10px 0;
+    line-height: 1.8;
+    color: #242424;
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none !important;
+}
+
+.textCenter
+{
+    text-align: center;
+}
+
+.subTitle
+{
+    color: #777777;
+}
+
+p {
+    font-family: 'BKoodakOutline', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-top: 15px;
+}
+
+.section {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+    display: block;
+}
