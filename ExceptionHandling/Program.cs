@@ -6,16 +6,25 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Number1:");
-            string number1Str = Console.ReadLine();
-
-            Console.WriteLine("Number2:");
-            string number2Str = Console.ReadLine();
-
-            Console.WriteLine("Operator: (A for Add)");
-            Console.WriteLine("(Add, Subtract, Multiply, Division)");
-
-            //Console.WriteLine("Hello World!");
+            try
+            {
+                byte age;
+                if (!byte.TryParse(args[0], out age))
+                {
+                    Console.WriteLine("Please add a valid number!");
+                    return;
+                }
+                
+                Console.WriteLine ($"Your age is {age}");
+            }
+            catch (System.IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(OverflowException ex)
+            {
+                Console.WriteLine($"I failed to execute the program. {ex.Message}");
+            }
         }
     }
 }
